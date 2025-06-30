@@ -1,24 +1,3 @@
-# # from plyer import vibrator
-# # try:
-# #     vibrator.vibrate(time=0.1)  # Vibrate for 100 milliseconds
-# # except:
-# #     pass
-
-# def try_vibrate(duration=0.1):
-#     try:
-#         from plyer import vibrator
-#         vibrator.vibrate(time=duration)
-#     except:
-#         pass 
-# try_vibrate()
-# # try:
-# #     from plyer import vibrator
-# #     vibrator.vibrate(time=0.1)
-# # except NotImplementedError:
-# #     print("Vibration not supported on this platform.")
-# # except:
-# #     pass  # Fails silently
-
 import pygame
 import random
 import math
